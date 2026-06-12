@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #eaf6ff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #4a90e2;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        nav {
+            background-color: #ffffff;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #4a90e2;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        h2 {
+            color: #4a90e2;
+            margin-bottom: 15px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #d6ecff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            color: #1f5f99;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4a90e2;
+            color: white;
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #4a90e2;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #357abd;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sirisha Balam</h1>
+        <p>Web Developer | Designer </p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate web developer with experience in creating
+            modern, responsive, and user-friendly websites. I enjoy
+            building solutions that help businesses grow online.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">Python</span>
+            <span class="skill">SQL</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A responsive personal portfolio showcasing skills and projects.</p>
+        </div>
+
+        <div class="project">
+            <h3>E-Commerce Website</h3>
+            <p>Online shopping platform with product listings and cart features.</p>
+        </div>
+
+        <div class="project">
+            <h3>Student Management System</h3>
+            <p>Web application for managing student records and attendance.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: yourname@email.com</p>
+        <p>Phone: +91 9999999999</p>
+        <a href="mailto:yourname@email.com" class="btn">Contact Me</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Your Name. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
